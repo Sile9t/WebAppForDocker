@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|c:\\projects\\asp.net core\\webappfordocker\\webappfordocker\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|c:\\projects\\asp.net core\\webappfordocker\\webappfordocker\\abstraction\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|solutionrelative:abstraction\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|c:\\projects\\asp.net core\\webappfordocker\\webappfordocker\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|c:\\projects\\asp.net core\\webappfordocker\\webappfordocker\\db\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|solutionrelative:db\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|c:\\projects\\asp.net core\\webappfordocker\\webappfordocker\\abstraction\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|solutionrelative:abstraction\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|c:\\projects\\asp.net core\\webappfordocker\\webappfordocker\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|c:\\projects\\asp.net core\\webappfordocker\\webappfordocker\\rsatools\\rsaextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|solutionrelative:rsatools\\rsaextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|c:\\projects\\asp.net core\\webappfordocker\\webappfordocker\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|c:\\projects\\asp.net core\\webappfordocker\\webappfordocker\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|c:\\projects\\asp.net core\\webappfordocker\\webappfordocker\\dtos\\userroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|solutionrelative:dtos\\userroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|c:\\projects\\asp.net core\\webappfordocker\\webappfordocker\\models\\roleid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16582214-D31C-4CAA-B501-C22E26199750}|WebAppForDocker.csproj|solutionrelative:models\\roleid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T18:53:12.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\DB\\UserContext.cs",
+              "RelativeDocumentMoniker": "DB\\UserContext.cs",
+              "ToolTip": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\DB\\UserContext.cs",
+              "RelativeToolTip": "DB\\UserContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T18:16:09.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Abstraction\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Abstraction\\UserRepository.cs",
+              "ToolTip": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Abstraction\\UserRepository.cs",
+              "RelativeToolTip": "Abstraction\\UserRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwDEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T18:14:14.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Abstraction\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Abstraction\\IUserRepository.cs",
+              "ToolTip": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Abstraction\\IUserRepository.cs",
+              "RelativeToolTip": "Abstraction\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T18:10:49.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "Dtos\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:47:14.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "Dtos\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:44:22.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RSAExtensions.cs",
+              "DocumentMoniker": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\RSATools\\RSAExtensions.cs",
+              "RelativeDocumentMoniker": "RSATools\\RSAExtensions.cs",
+              "ToolTip": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\RSATools\\RSAExtensions.cs",
+              "RelativeToolTip": "RSATools\\RSAExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:38:44.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRoleDto.cs",
+              "DocumentMoniker": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Dtos\\UserRoleDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserRoleDto.cs",
+              "ToolTip": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Dtos\\UserRoleDto.cs",
+              "RelativeToolTip": "Dtos\\UserRoleDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:46:04.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoleId.cs",
+              "DocumentMoniker": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Models\\RoleId.cs",
+              "RelativeDocumentMoniker": "Models\\RoleId.cs",
+              "ToolTip": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Models\\RoleId.cs",
+              "RelativeToolTip": "Models\\RoleId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:26:42.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:23:21.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Projects\\ASP.NET CORE\\WebAppForDocker\\WebAppForDocker\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:23:12.48Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
