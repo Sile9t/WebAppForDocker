@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebAppForDocker.Abstraction;
 using WebAppForDocker.Dtos;
+using WebAppForDocker.Models;
 
 namespace WebAppForDocker.Controllers
 {
@@ -23,6 +24,16 @@ namespace WebAppForDocker.Controllers
         }
 
         [HttpGet]
-        public ActionResult<RoleId> CheckUser(LoginDto)
+        public ActionResult<RoleId> CheckUser(LoginDto login)
+        {
+            try
+            {
+                return Ok(_repository.CheckUser(login));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(409);
+            }
+        }
     }
 }
