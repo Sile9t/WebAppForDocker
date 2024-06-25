@@ -24,7 +24,6 @@ namespace WebAppForDocker.Controllers
         }
 
         [AllowAnonymous]
-        [Route("Add")]
         [HttpPost("add_admin")]
         public ActionResult AddAdmin([FromBody] LoginDto login)
         {
@@ -55,7 +54,7 @@ namespace WebAppForDocker.Controllers
         }
 
         [AllowAnonymous]
-        [HttpPost]
+        [HttpPost("login")]
         public ActionResult Login([FromBody] LoginDto login)
         {
             try
