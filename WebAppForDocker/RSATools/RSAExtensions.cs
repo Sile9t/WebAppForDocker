@@ -6,7 +6,7 @@ namespace WebAppForDocker.RSATools
     {
         public static RSA GetPrivateKey()
         {
-            var key = File.ReadAllText(@"../Keys/private_key.pem");
+            var key = File.ReadAllText(@"../WebAppForDocker/Keys/private_key.pem");
             var rsa = RSA.Create();
 
             rsa.ImportFromPem(key);
@@ -16,7 +16,7 @@ namespace WebAppForDocker.RSATools
 
         public static RSA GetPublicKey()
         {
-            var key = File.ReadAllText(@"../Keys/public_key.pem");
+            var key = File.ReadAllText(@"../WebAppForDocker/Keys/public_key.pem");
             var rsa = RSA.Create();
 
             rsa.ImportFromPem(key);
