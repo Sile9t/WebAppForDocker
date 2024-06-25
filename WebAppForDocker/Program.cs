@@ -1,7 +1,10 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using WebAppForDocker.Abstraction;
 using WebAppForDocker.DB;
+using WebAppForDocker.RSATools;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,6 +40,20 @@ builder.Services.AddSwaggerGen(opt =>
         }
     });
 });
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new RsaSecurityKey(RSAExtensions.GetPublicKey())
+        };
+    });
 builder.Services.AddDbContext<UserContext>(options => options.UseSqlServer(
         builder.Configuration.GetConnectionString("db")).LogTo(Console.WriteLine));
 builder.Services.AddScoped<IUserRepository, UserRepository>();
