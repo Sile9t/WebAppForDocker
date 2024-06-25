@@ -4,7 +4,7 @@ namespace WebAppForDocker.RSATools
 {
     public class RSAExtensions
     {
-        public RSA GeneratePrivateKey()
+        public static RSA GetPrivateKey()
         {
             var key = File.ReadAllText(@"../Keys/private_key.pem");
             var rsa = RSA.Create();
@@ -14,7 +14,7 @@ namespace WebAppForDocker.RSATools
             return rsa;
         }
 
-        public RSA GeneratePublicKey()
+        public static RSA GetPublicKey()
         {
             var key = File.ReadAllText(@"../Keys/public_key.pem");
             var rsa = RSA.Create();
