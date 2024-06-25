@@ -44,7 +44,7 @@ namespace WebAppForDocker.Abstraction
                 var data = Encoding.UTF8.GetBytes(login.Password).Concat(user.Salt).ToArray();
                 var hash = new SHA512Managed().ComputeHash(data);
 
-                if (user.Password == hash)
+                if (user.Password.SequenceEqual(hash))
                     return user.RoleId;
 
                 throw new Exception("Wrong password!");

@@ -10,7 +10,13 @@ namespace WebAppForDocker.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserRepository _repository;
-        [HttpPost]
+
+        public UserController(IUserRepository repository)
+        {
+            _repository = repository;
+        }
+
+        [HttpPost("add_user")]
         public ActionResult<int> AddUser(UserDto user)
         {
             try
@@ -19,11 +25,11 @@ namespace WebAppForDocker.Controllers
             }
             catch (Exception ex) 
             {
-                return StatusCode(409);
+                return StatusCode(409, ex.Message);
             }
         }
 
-        [HttpGet]
+        [HttpPost]
         public ActionResult<RoleId> CheckUser(LoginDto login)
         {
             try
@@ -32,7 +38,7 @@ namespace WebAppForDocker.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(409);
+                return StatusCode(409, ex.Message);
             }
         }
     }

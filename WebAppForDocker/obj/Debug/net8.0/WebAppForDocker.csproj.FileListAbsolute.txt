@@ -144,3 +144,4 @@ C:\Projects\ASP.NET CORE\WebAppForDocker\WebAppForDocker\obj\Debug\net8.0\refint
 C:\Projects\ASP.NET CORE\WebAppForDocker\WebAppForDocker\obj\Debug\net8.0\WebAppForDocker.pdb
 C:\Projects\ASP.NET CORE\WebAppForDocker\WebAppForDocker\obj\Debug\net8.0\WebAppForDocker.genruntimeconfig.cache
 C:\Projects\ASP.NET CORE\WebAppForDocker\WebAppForDocker\obj\Debug\net8.0\ref\WebAppForDocker.dll
+C:\Projects\ASP.NET CORE\WebAppForDocker\WebAppForDocker\obj\Debug\net8.0\WebAppForDocker.sourcelink.json

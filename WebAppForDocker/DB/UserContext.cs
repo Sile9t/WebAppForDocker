@@ -8,6 +8,13 @@ namespace WebAppForDocker.DB
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
 
+        public UserContext()
+        {
+            
+        }
+
+        public UserContext(DbContextOptions options) : base(options) { }
+        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server=DESKTOP-U893DOI;Initial Catalog = UserDb;TrustServerCertificate=True;Trusted_Connection=True")
